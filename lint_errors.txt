@@ -1,0 +1,953 @@
+
+> seopilot-ai-agent@0.1.0 lint
+> eslint
+
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\(auth)\login\page.tsx
+  41:28  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\(dashboard)\billing\page.tsx
+  22:41  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\(dashboard)\brand\page.tsx
+  19:59  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\(dashboard)\dashboard\page.tsx
+  26:87  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\(dashboard)\monitors\page.tsx
+  4:20  warning  'CheckCircle2' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\api\workflow\trigger\route.ts
+  4:11  warning  'data' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\checkout\page.tsx
+  6:10  warning  'Card' is defined but never used  @typescript-eslint/no-unused-vars
+  7:44  warning  'Lock' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx
+    7:10   warning  'Select' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+    7:18   warning  'SelectContent' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+    7:33   warning  'SelectItem' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+    7:45   warning  'SelectTrigger' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+    7:60   warning  'SelectValue' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           @typescript-eslint/no-unused-vars
+    9:81   warning  'Circle' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+    9:89   warning  'Bot' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+    9:94   warning  'Zap' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+    9:99   warning  'Globe' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+    9:106  warning  'Cpu' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+    9:111  warning  'Search' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+   64:11   warning  'updateFeature' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+   70:11   warning  'addFeature' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+   74:11   warning  'removeFeature' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                @typescript-eslint/no-unused-vars
+  178:84   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   react/no-unescaped-entities
+  246:95   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   react/no-unescaped-entities
+  302:108  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   react/no-unescaped-entities
+  334:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:334:42
+  332 |
+  333 |                                     <div className="space-y-3">
+> 334 |                                         <PricingFeature text="1 project" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  335 |                                         <PricingFeature text="2 monitors" />
+  336 |                                         <PricingFeature text="20 prompts" />
+  337 |                                         <PricingFeature text="200 responses" />
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                                                                                                  react-hooks/static-components
+  335:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:335:42
+  333 |                                     <div className="space-y-3">
+  334 |                                         <PricingFeature text="1 project" />
+> 335 |                                         <PricingFeature text="2 monitors" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  336 |                                         <PricingFeature text="20 prompts" />
+  337 |                                         <PricingFeature text="200 responses" />
+  338 |                                         <PricingFeature text="2 models" />
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                       react-hooks/static-components
+  336:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:336:42
+  334 |                                         <PricingFeature text="1 project" />
+  335 |                                         <PricingFeature text="2 monitors" />
+> 336 |                                         <PricingFeature text="20 prompts" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  337 |                                         <PricingFeature text="200 responses" />
+  338 |                                         <PricingFeature text="2 models" />
+  339 |                                         <PricingFeature text="Unlimited seats" />
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                     react-hooks/static-components
+  337:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:337:42
+  335 |                                         <PricingFeature text="2 monitors" />
+  336 |                                         <PricingFeature text="20 prompts" />
+> 337 |                                         <PricingFeature text="200 responses" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  338 |                                         <PricingFeature text="2 models" />
+  339 |                                         <PricingFeature text="Unlimited seats" />
+  340 |                                     </div>
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                                      react-hooks/static-components
+  338:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:338:42
+  336 |                                         <PricingFeature text="20 prompts" />
+  337 |                                         <PricingFeature text="200 responses" />
+> 338 |                                         <PricingFeature text="2 models" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  339 |                                         <PricingFeature text="Unlimited seats" />
+  340 |                                     </div>
+  341 |                                 </div>
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                                                                            react-hooks/static-components
+  339:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:339:42
+  337 |                                         <PricingFeature text="200 responses" />
+  338 |                                         <PricingFeature text="2 models" />
+> 339 |                                         <PricingFeature text="Unlimited seats" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  340 |                                     </div>
+  341 |                                 </div>
+  342 |
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                                                                                                                                                         react-hooks/static-components
+  357:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:357:42
+  355 |
+  356 |                                     <div className="space-y-3">
+> 357 |                                         <PricingFeature text="2 projects" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  358 |                                         <PricingFeature text="10 monitors" />
+  359 |                                         <PricingFeature text="50 prompts" />
+  360 |                                         <PricingFeature text="1000 responses" />
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                                                                                               react-hooks/static-components
+  358:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:358:42
+  356 |                                     <div className="space-y-3">
+  357 |                                         <PricingFeature text="2 projects" />
+> 358 |                                         <PricingFeature text="10 monitors" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  359 |                                         <PricingFeature text="50 prompts" />
+  360 |                                         <PricingFeature text="1000 responses" />
+  361 |                                         <PricingFeature text="5 models" />
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                    react-hooks/static-components
+  359:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:359:42
+  357 |                                         <PricingFeature text="2 projects" />
+  358 |                                         <PricingFeature text="10 monitors" />
+> 359 |                                         <PricingFeature text="50 prompts" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  360 |                                         <PricingFeature text="1000 responses" />
+  361 |                                         <PricingFeature text="5 models" />
+  362 |                                         <PricingFeature text="Google AI Overviews" />
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                              react-hooks/static-components
+  360:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:360:42
+  358 |                                         <PricingFeature text="10 monitors" />
+  359 |                                         <PricingFeature text="50 prompts" />
+> 360 |                                         <PricingFeature text="1000 responses" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  361 |                                         <PricingFeature text="5 models" />
+  362 |                                         <PricingFeature text="Google AI Overviews" />
+  363 |                                         <PricingFeature text="Unlimited seats" />
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                         react-hooks/static-components
+  361:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:361:42
+  359 |                                         <PricingFeature text="50 prompts" />
+  360 |                                         <PricingFeature text="1000 responses" />
+> 361 |                                         <PricingFeature text="5 models" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  362 |                                         <PricingFeature text="Google AI Overviews" />
+  363 |                                         <PricingFeature text="Unlimited seats" />
+  364 |                                     </div>
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                            react-hooks/static-components
+  362:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:362:42
+  360 |                                         <PricingFeature text="1000 responses" />
+  361 |                                         <PricingFeature text="5 models" />
+> 362 |                                         <PricingFeature text="Google AI Overviews" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  363 |                                         <PricingFeature text="Unlimited seats" />
+  364 |                                     </div>
+  365 |                                 </div>
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                                                                  react-hooks/static-components
+  363:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:363:42
+  361 |                                         <PricingFeature text="5 models" />
+  362 |                                         <PricingFeature text="Google AI Overviews" />
+> 363 |                                         <PricingFeature text="Unlimited seats" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  364 |                                     </div>
+  365 |                                 </div>
+  366 |
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                                                                                                                                                   react-hooks/static-components
+  380:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:380:42
+  378 |
+  379 |                                     <div className="space-y-3">
+> 380 |                                         <PricingFeature text="5 projects" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  381 |                                         <PricingFeature text="Unlimited monitors" />
+  382 |                                         <PricingFeature text="250 prompts" />
+  383 |                                         <PricingFeature text="Up to 25000 responses" />
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                                                                                react-hooks/static-components
+  381:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:381:42
+  379 |                                     <div className="space-y-3">
+  380 |                                         <PricingFeature text="5 projects" />
+> 381 |                                         <PricingFeature text="Unlimited monitors" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  382 |                                         <PricingFeature text="250 prompts" />
+  383 |                                         <PricingFeature text="Up to 25000 responses" />
+  384 |                                         <PricingFeature text="Gemini Flash 1.5" />
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                             react-hooks/static-components
+  382:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:382:42
+  380 |                                         <PricingFeature text="5 projects" />
+  381 |                                         <PricingFeature text="Unlimited monitors" />
+> 382 |                                         <PricingFeature text="250 prompts" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  383 |                                         <PricingFeature text="Up to 25000 responses" />
+  384 |                                         <PricingFeature text="Gemini Flash 1.5" />
+  385 |                                         <PricingFeature text="Google AI Overviews" />
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">       react-hooks/static-components
+  383:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:383:42
+  381 |                                         <PricingFeature text="Unlimited monitors" />
+  382 |                                         <PricingFeature text="250 prompts" />
+> 383 |                                         <PricingFeature text="Up to 25000 responses" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  384 |                                         <PricingFeature text="Gemini Flash 1.5" />
+  385 |                                         <PricingFeature text="Google AI Overviews" />
+  386 |                                         <PricingFeature text="Unlimited seats" />
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">  react-hooks/static-components
+  384:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:384:42
+  382 |                                         <PricingFeature text="250 prompts" />
+  383 |                                         <PricingFeature text="Up to 25000 responses" />
+> 384 |                                         <PricingFeature text="Gemini Flash 1.5" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  385 |                                         <PricingFeature text="Google AI Overviews" />
+  386 |                                         <PricingFeature text="Unlimited seats" />
+  387 |                                     </div>
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                            react-hooks/static-components
+  385:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:385:42
+  383 |                                         <PricingFeature text="Up to 25000 responses" />
+  384 |                                         <PricingFeature text="Gemini Flash 1.5" />
+> 385 |                                         <PricingFeature text="Google AI Overviews" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  386 |                                         <PricingFeature text="Unlimited seats" />
+  387 |                                     </div>
+  388 |                                 </div>
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                                                   react-hooks/static-components
+  386:42   error    Error: Cannot create components during render
+
+Components created during render will reset their state each time they are created. Declare components outside of render.
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:386:42
+  384 |                                         <PricingFeature text="Gemini Flash 1.5" />
+  385 |                                         <PricingFeature text="Google AI Overviews" />
+> 386 |                                         <PricingFeature text="Unlimited seats" />
+      |                                          ^^^^^^^^^^^^^^ This component is created during render
+  387 |                                     </div>
+  388 |                                 </div>
+  389 |                             </div>
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\onboarding\page.tsx:115:28
+  113 |
+  114 |
+> 115 |     const PricingFeature = ({ text }: { text: string }) => (
+      |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 116 |         <div className="flex items-start gap-2 text-sm text-slate-600">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 117 |             <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 118 |                 <Check className="h-2 w-2 text-white font-bold" />
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 119 |             </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 120 |             <span>{text}</span>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 121 |         </div>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 122 |     )
+      | ^^^^^^ The component is created during render here
+  123 |
+  124 |     return (
+  125 |         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">                                                                                                                                        react-hooks/static-components
+
+C:\Users\rahul\Downloads\SEO AI Agent\app\page.tsx
+   9:10  warning  'Header' is defined but never used                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+  17:10  warning  'Package2' is defined but never used                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+  17:20  warning  'Menu' is defined but never used                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+  24:11  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\app.ts
+  16:8   warning  'userRoutes' is defined but never used   @typescript-eslint/no-unused-vars
+  17:10  warning  'rateLimiter' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\controllers\ai.controller.ts
+   1:10  warning  'Request' is defined but never used       @typescript-eslint/no-unused-vars
+  16:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  31:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  44:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\controllers\auth.controller.ts
+  17:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  49:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  71:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+  71:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\controllers\monitor.controller.ts
+   1:10  warning  'Request' is defined but never used       @typescript-eslint/no-unused-vars
+  16:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+  39:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\controllers\payment.controller.ts
+  11:23  warning  'billingInterval' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  32:21  error    Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+  52:21  error    Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+  68:21  error    Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\controllers\project.controller.ts
+    1:10  warning  'Request' is defined but never used       @typescript-eslint/no-unused-vars
+   29:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   32:90  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   43:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   56:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+   56:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   69:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   72:90  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   85:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  102:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  105:90  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\controllers\prompt.controller.ts
+   1:10  warning  'Request' is defined but never used       @typescript-eslint/no-unused-vars
+  14:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+  29:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  46:21  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\controllers\user.controller.ts
+  26:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\middlewares\auth.middleware.ts
+   6:7   warning  'prisma' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  26:64  error    Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  34:14  warning  'err' is defined but never used              @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\middlewares\rateLimit.middleware.ts
+   8:7   warning  'WINDOW_LOG_INTERVAL_IN_SECONDS' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  14:15  warning  'ip' is assigned a value but never used                              @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\routes\payment.routes.ts
+  1:18  warning  'raw' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\services\ai.service.ts
+  15:106  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  65:21   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  85:18   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\services\ai\orchestrator.ts
+  24:53  error  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  30:13  error  'model' is never reassigned. Use 'const' instead  prefer-const
+  51:38  error  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  55:38  error  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  59:39  error  Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\services\auth.service.ts
+   3:30   warning  'Role' is defined but never used          @typescript-eslint/no-unused-vars
+   5:8    warning  'logger' is defined but never used        @typescript-eslint/no-unused-vars
+  17:97   error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  18:112  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  23:42   error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  49:39   error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  68:71   error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  74:14   warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\services\cashfree.service.ts
+  29:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  39:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\services\credit.service.ts
+   2:8   warning  'logger' is defined but never used                     @typescript-eslint/no-unused-vars
+  78:9   error    'updateData' is never reassigned. Use 'const' instead  prefer-const
+  78:21  error    Unexpected any. Specify a different type               @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\services\n8n.service.ts
+  9:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\services\payment.service.ts
+   2:24  warning  'PaymentStatus' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   8:33  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  56:5   error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+  88:19  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\services\project.service.ts
+   1:24   warning  'Project' is defined but never used         @typescript-eslint/no-unused-vars
+   1:33   warning  'OnboardingStep' is defined but never used  @typescript-eslint/no-unused-vars
+   2:8    warning  'logger' is defined but never used          @typescript-eslint/no-unused-vars
+  71:107  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\services\redis.service.ts
+  15:52  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\test-ai-service.ts
+  24:26  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  34:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\test-gemini.ts
+  31:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\backend\src\test-openai.ts
+  32:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\homepage\dark-benefit-section.tsx
+   5:8    warning  'Image' is defined but never used                                @typescript-eslint/no-unused-vars
+  22:39   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  34:36   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  53:127  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\homepage\footer.tsx
+   3:10  warning  'Package2' is defined but never used                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+  13:29  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\homepage\hero-section.tsx
+  6:8  warning  'Image' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\homepage\pricing-section.tsx
+  4:29  warning  'CardFooter' is defined but never used  @typescript-eslint/no-unused-vars
+  4:53  warning  'CardTitle' is defined but never used   @typescript-eslint/no-unused-vars
+  5:17  warning  'Zap' is defined but never used         @typescript-eslint/no-unused-vars
+  6:10  warning  'Badge' is defined but never used       @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\homepage\social-proof.tsx
+  3:8  warning  'Image' is defined but never used           @typescript-eslint/no-unused-vars
+  5:7  warning  'LOGOS' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\homepage\testimonials.tsx
+   5:10  warning  'Badge' is defined but never used                                @typescript-eslint/no-unused-vars
+  74:37  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  74:49  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\layout\header.tsx
+   7:10  warning  'Package2' is defined but never used                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+  23:29  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\onboarding\onboarding-header.tsx
+   4:10  warning  'Package2' is defined but never used                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+   6:10  warning  'cn' is defined but never used                                                                                                                                                                                                                                                           @typescript-eslint/no-unused-vars
+  17:21  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\onboarding\steps\step-1.tsx
+   8:10  warning  'Briefcase' is defined but never used                            @typescript-eslint/no-unused-vars
+   8:31  warning  'Globe' is defined but never used                                @typescript-eslint/no-unused-vars
+  25:52  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\onboarding\steps\step-2.tsx
+  27:36  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\onboarding\steps\step-4.tsx
+  7:10  warning  'Textarea' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\onboarding\steps\step-5.tsx
+  38:36  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\onboarding\steps\step-7.tsx
+   7:10  warning  'Textarea' is defined but never used  @typescript-eslint/no-unused-vars
+  10:10  warning  'cn' is defined but never used        @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\onboarding\steps\step-8.tsx
+  7:8  warning  'Confetti' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\payment\CashfreeCheckout.tsx
+   9:33  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  11:25  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  17:50  warning  'onSuccess' is defined but never used     @typescript-eslint/no-unused-vars
+  18:46  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  51:62  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\sidebar\sidebar.tsx
+   3:10  warning  'Package2' is defined but never used                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+  10:21  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\ui\input.tsx
+  4:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+C:\Users\rahul\Downloads\SEO AI Agent\components\ui\textarea.tsx
+  4:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+C:\Users\rahul\Downloads\SEO AI Agent\tailwind.config.js
+  89:15  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+Γ£û 163 problems (92 errors, 71 warnings)
+  2 errors and 0 warnings potentially fixable with the `--fix` option.
+

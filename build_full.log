@@ -1,0 +1,20 @@
+Γû▓ Next.js 16.1.4 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 9.5s
+  Running TypeScript ...
+Failed to compile.
+
+./components/payment/CashfreeCheckout.tsx:3:22
+Type error: Could not find a declaration file for module '@cashfreepayments/cashfree-js'. 'C:/Users/rahul/Downloads/SEO AI Agent/node_modules/@cashfreepayments/cashfree-js/dist/script.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/cashfreepayments__cashfree-js` if it exists or add a new declaration (.d.ts) file containing `declare module '@cashfreepayments/cashfree-js';`
+
+  1 | 'use client';
+  2 |
+> 3 | import { load } from '@cashfreepayments/cashfree-js';
+    |                      ^
+  4 | import { useState, useEffect } from 'react';
+  5 | import { Button } from '@/components/ui/button';
+  6 | import { Loader2 } from 'lucide-react';
+Next.js build worker exited with code: 1 and signal: null

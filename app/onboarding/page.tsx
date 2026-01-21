@@ -11,6 +11,16 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 
+const PricingFeature = ({ text }: { text: string }) => (
+    <div className="flex items-start gap-2 text-sm text-slate-600">
+        <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
+            <Check className="h-2 w-2 text-white font-bold" />
+        </div>
+        <span>{text}</span>
+    </div>
+);
+
+
 export default function OnboardingPage() {
     const [step, setStep] = useState(1);
     const router = useRouter();
@@ -109,32 +119,11 @@ export default function OnboardingPage() {
     const totalSteps = 8;
     const progressPercentage = (step / totalSteps) * 100;
 
-    const ModelCard = ({ id, name, description, icon: Icon }: { id: string, name: string, description: string, icon: any }) => (
-        <div
-            onClick={() => toggleModel(id)}
-            className={cn(
-                "cursor-pointer rounded-xl border p-4 flex items-start gap-4 transition-all duration-200 hover:shadow-md",
-                formData.selectedModels.includes(id) ? "border-blue-500 bg-blue-50/50 ring-1 ring-blue-500" : "border-slate-200 bg-white hover:border-slate-300"
-            )}
-        >
-            <div className={cn("h-10 w-10 min-w-10 rounded-lg flex items-center justify-center", formData.selectedModels.includes(id) ? "bg-blue-100 text-blue-600" : "bg-slate-100 text-slate-500")}>
-                <Icon className="h-6 w-6" />
-            </div>
-            <div>
-                <h3 className="text-sm font-bold text-slate-900 leading-tight mb-1">{name}</h3>
-                <p className="text-[11px] text-slate-500 leading-snug">{description}</p>
-            </div>
-        </div>
-    );
+    // ModelCard component removed as it was unused and caused build errors due to missing dependencies.
 
-    const PricingFeature = ({ text }: { text: string }) => (
-        <div className="flex items-start gap-2 text-sm text-slate-600">
-            <div className="mt-1 h-3 w-3 min-w-3 bg-blue-500 rounded-full flex items-center justify-center">
-                <Check className="h-2 w-2 text-white font-bold" />
-            </div>
-            <span>{text}</span>
-        </div>
-    )
+
+    // PricingFeature moved outside
+
 
     return (
         <div className="min-h-screen flex flex-col items-center pt-20 bg-gradient-to-br from-blue-500 via-blue-400 to-blue-500 relative overflow-x-hidden font-sans pb-20">
