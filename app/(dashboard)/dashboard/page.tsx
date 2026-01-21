@@ -175,12 +175,12 @@ export default function DashboardPage() {
                                 </div>
                             </div>
 
-                            {/* Models */}
+                            {/* AI Engine */}
                             <div className="p-6 space-y-4">
-                                <span className="text-sm font-medium text-slate-500">Models</span>
+                                <span className="text-sm font-medium text-slate-500">AI Engine</span>
                                 <div className="flex items-center gap-2">
-                                    <Bot className="h-4 w-4 text-slate-700" />
-                                    <span className="text-sm font-medium">ChatGPT Search</span>
+                                    <Bot className="h-4 w-4 text-blue-600" />
+                                    <span className="text-sm font-medium">Gemini 1.5 Flash</span>
                                 </div>
                             </div>
 

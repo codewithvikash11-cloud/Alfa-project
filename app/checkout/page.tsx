@@ -29,7 +29,7 @@ export default function CheckoutPage() {
                 <div className="z-10 mt-10 md:mt-20">
                     <div className="flex items-center gap-2 text-white/80 mb-8 font-medium">
                         <BarChart2 className="h-5 w-5" />
-                        <span>SEOForge.ai</span>
+                        <span>SeoPilot.ai</span>
                         {/* Screenshot says Bidylitics, Inc. but we stick to project name */}
                     </div>
 
@@ -119,7 +119,7 @@ export default function CheckoutPage() {
                             <div className="h-5 w-5 border border-slate-300 rounded mt-0.5" />
                             <div className="text-sm text-slate-500">
                                 <span className="font-medium text-slate-700">Save my information for faster checkout</span>
-                                <p className="mt-0.5">Pay securely at SEOForge.ai, Inc. and everywhere Link is accepted.</p>
+                                <p className="mt-0.5">Pay securely at SeoPilot.ai, Inc. and everywhere Link is accepted.</p>
                             </div>
                         </div>
 
@@ -132,7 +132,7 @@ export default function CheckoutPage() {
                         </Button>
 
                         <p className="text-xs text-slate-400 mt-4 text-center leading-relaxed">
-                            By subscribing, you authorize SEOForge.ai, Inc. to charge you according to the terms until you cancel.
+                            By subscribing, you authorize SeoPilot.ai, Inc. to charge you according to the terms until you cancel.
                         </p>
                     </div>
                 </div>

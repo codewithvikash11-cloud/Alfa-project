@@ -21,8 +21,7 @@ function LandingHeader() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold text-xl text-slate-900">
-          <Package2 className="h-6 w-6 text-primary" />
-          <span>SEOForge.ai</span>
+          <img src="/logo.png" alt="SeoPilot.ai Logo" className="h-10 w-auto" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
@@ -44,8 +43,40 @@ function LandingHeader() {
 }
 
 export default function Home() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "SeoPilot.ai",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "description": "AI-Powered SEO Automation Platform for Agencies and Startups."
+      },
+      {
+        "@type": "Organization",
+        "name": "SeoPilot.ai",
+        "url": "https://SeoPilot.ai",
+        "logo": "https://SeoPilot.ai/logo.png",
+        "sameAs": [
+          "https://twitter.com/SeoPilot_ai",
+          "https://linkedin.com/company/SeoPilot"
+        ]
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-white font-sans selection:bg-primary/20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <LandingHeader />
       <main>
         <HeroSection />

@@ -20,8 +20,7 @@ export function Header() {
                 <SheetContent side="left" className="flex flex-col w-[300px] sm:w-[400px] pl-0">
                     <nav className="grid gap-2 text-lg font-medium px-6">
                         <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary mb-6">
-                            <Package2 className="h-6 w-6" />
-                            <span>SEOForge.ai</span>
+                            <img src="/logo.png" alt="SeoPilot.ai Logo" className="h-10 w-auto" />
                         </Link>
                         <SidebarNavigation />
                     </nav>

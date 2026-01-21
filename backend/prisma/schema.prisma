@@ -1,0 +1,238 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum AiRequestType {
+  ANALYZE
+  ARTICLE
+  SEO_CHECK
+}
+
+enum RequestStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+enum TransactionType {
+  PLANNED_REFILL
+  PURCHASE
+  USAGE
+  BONUS
+  REFUND
+}
+
+enum PlanType {
+  FREE
+  PRO
+  AGENCY
+}
+
+enum SubStatus {
+  ACTIVE
+  CANCELED
+  PAST_DUE
+}
+
+enum PaymentStatus {
+  PENDING
+  SUCCEEDED
+  FAILED
+}
+
+enum MonitorType {
+  UPTIME
+  KEYWORD
+  COMPETITOR
+}
+
+model User {
+  id              String         @id @default(uuid())
+  email           String         @unique
+  password        String
+  name            String?
+  role            Role           @default(USER)
+  verified        Boolean        @default(false)
+  organizationId  String?
+  organization    Organization?  @relation(fields: [organizationId], references: [id])
+  projects        Project[]
+  credits         Credit?
+  subscription    Subscription?
+  apiKeys         ApiKey[]
+  auditLogs       AuditLog[]
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+  deletedAt       DateTime?      // Soft delete
+}
+
+model Organization {
+  id              String         @id @default(uuid())
+  name            String
+  users           User[]
+  subscription    Subscription?
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+  deletedAt       DateTime?
+}
+
+model Project {
+  id              String         @id @default(uuid())
+  name            String
+  domain          String?
+  userId          String
+  user            User           @relation(fields: [userId], references: [id])
+  onboarding      OnboardingStep[]
+  aiRequests      AiRequest[]
+  monitors        Monitor[]
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+  deletedAt       DateTime?
+
+  @@index([userId])
+}
+
+model OnboardingStep {
+  id              String         @id @default(uuid())
+  projectId       String
+  project         Project        @relation(fields: [projectId], references: [id])
+  stepIdentifier  String 
+  data            Json
+  completed       Boolean        @default(false)
+  updatedAt       DateTime       @updatedAt
+}
+
+model AiRequest {
+  id              String         @id @default(uuid())
+  projectId       String
+  project         Project        @relation(fields: [projectId], references: [id])
+  type            AiRequestType
+  provider        String?        // openai, gemini, claude
+  model           String?        // gpt-4, etc
+  prompt          String?        // Store the prompt used (careful with size)
+  inputData       Json
+  status          RequestStatus  @default(PENDING)
+  resultId        String?        @unique
+  result          AiResult?      @relation(fields: [resultId], references: [id])
+  costCredits     Int            @default(1)
+  tokensUsed      Int            @default(0)
+  errorMessage    String?
+  createdAt       DateTime       @default(now())
+  
+  @@index([projectId])
+  @@index([status])
+}
+
+model AiResult {
+  id              String         @id @default(uuid())
+  content         Json
+  request         AiRequest?
+  createdAt       DateTime       @default(now())
+}
+
+model Credit {
+  id              String         @id @default(uuid())
+  userId          String         @unique
+  user            User           @relation(fields: [userId], references: [id])
+  freeBalance     Int            @default(5)
+  paidBalance     Int            @default(0)
+  totalUsed       Int            @default(0)
+  transactions    CreditTransaction[]
+  updatedAt       DateTime       @updatedAt
+}
+
+model CreditTransaction {
+  id              String         @id @default(uuid())
+  creditId        String
+  credit          Credit         @relation(fields: [creditId], references: [id])
+  amount          Int
+  type            TransactionType
+  description     String?
+  createdAt       DateTime       @default(now())
+
+  @@index([creditId])
+  @@index([type])
+}
+
+model Subscription {
+  id              String         @id @default(uuid())
+  orgId           String?        @unique
+  organization    Organization?  @relation(fields: [orgId], references: [id])
+  userId          String?        @unique
+  user            User?          @relation(fields: [userId], references: [id])
+  
+  stripeSubId     String?        @unique
+  stripeCustomerId String?
+  plan            PlanType       @default(FREE)
+  status          SubStatus
+  currentPeriodEnd DateTime?
+  updatedAt       DateTime       @updatedAt
+}
+
+model Payment {
+  id              String         @id @default(uuid())
+  userId          String
+  amount          Float
+  currency        String
+  provider        String
+  providerId      String
+  status          PaymentStatus
+  createdAt       DateTime       @default(now())
+}
+
+model Prompt {
+  id              String         @id @default(uuid())
+  name            String         @unique
+  template        String
+  version         Int            @default(1)
+  isActive        Boolean        @default(true)
+  updatedAt       DateTime       @updatedAt
+}
+
+model Monitor {
+  id              String         @id @default(uuid())
+  projectId       String
+  project         Project        @relation(fields: [projectId], references: [id])
+  type            MonitorType
+  frequency       String
+  lastCheck       DateTime?
+  status          String
+  isActive        Boolean        @default(true)
+  createdAt       DateTime       @default(now())
+}
+
+model ApiKey {
+  id              String         @id @default(uuid())
+  key             String         @unique
+  userId          String
+  user            User           @relation(fields: [userId], references: [id])
+  name            String?
+  lastUsed        DateTime?
+  createdAt       DateTime       @default(now())
+  deletedAt       DateTime?
+}
+
+model AuditLog {
+  id              String         @id @default(uuid())
+  userId          String
+  user            User           @relation(fields: [userId], references: [id])
+  action          String         // e.g., "PROJECT_DELETE", "CREDIT_TOPUP"
+  resource        String         // e.g., "Project", "Credit"
+  resourceId      String?
+  details         Json?
+  ipAddress       String?
+  createdAt       DateTime       @default(now())
+  
+  @@index([userId])
+}

@@ -1,8 +1,19 @@
+import { CashfreeCheckout } from "@/components/payment/CashfreeCheckout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check } from "lucide-react";
 
 export default function BillingPage() {
+    const createSubscriptionOrder = async () => {
+        const response = await fetch('/api/payment/checkout', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ plan: 'PRO', billingInterval: 'MONTHLY' })
+        });
+        if (!response.ok) throw new Error('Failed to create order');
+        return response.json();
+    };
+
     return (
         <div className="space-y-10 pb-10">
             <div className="text-center space-y-4">
@@ -53,7 +64,12 @@ export default function BillingPage() {
                         </ul>
                     </CardContent>
                     <CardFooter>
-                        <Button className="w-full" variant="default">Upgrade to Pro</Button>
+                        <CashfreeCheckout
+                            orderPromise={createSubscriptionOrder}
+                            className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
+                        >
+                            Upgrade to Pro
+                        </CashfreeCheckout>
                     </CardFooter>
                 </Card>
 

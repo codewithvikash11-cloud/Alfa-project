@@ -8,7 +8,7 @@ const testimonials = [
     {
         name: "Sarah Jenks",
         role: "CMO at TechFlow",
-        content: "We've seen a 300% increase in organic traffic since using SEOForge. The AI agents are incredibly accurate.",
+        content: "We've seen a 300% increase in organic traffic since using SeoPilot. The AI agents are incredibly accurate.",
         image: "/avatars/avatar-1.png"
     },
     {

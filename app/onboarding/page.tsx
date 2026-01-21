@@ -33,8 +33,8 @@ export default function OnboardingPage() {
         monitorDescription: "",
         language: "GB English",
         location: "Global (Global)",
-        // Step 6
-        selectedModels: [] as string[],
+        // Step 6 (Removed model selection)
+        // selectedModels: [] as string[],
         // Step 7
         prompts: [
             "What can you tell me about the company wr4rr3g?",
@@ -93,13 +93,16 @@ export default function OnboardingPage() {
     }
 
     // Model selection
+    // Model selection logic removed
+    /*
     const toggleModel = (modelId: string) => {
         if (formData.selectedModels.includes(modelId)) {
             setFormData({ ...formData, selectedModels: formData.selectedModels.filter(id => id !== modelId) });
         } else {
             setFormData({ ...formData, selectedModels: [...formData.selectedModels, modelId] });
         }
-    }
+    };
+    */
 
 
     // total steps for progress bar
@@ -251,37 +254,19 @@ export default function OnboardingPage() {
                     )}
 
                     {/* STEP 6: Monitor Models */}
+                    {/* STEP 6: AI Engine Info (Replaced Model Selection) */}
                     {step === 6 && (
                         <div className="w-full flex flex-col items-center text-center animate-in slide-in-from-right-10 duration-300 fade-in">
-                            <h1 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">Monitor Models</h1>
-                            <p className="text-slate-500 mb-8">Select the LLM models you want to monitor</p>
+                            <h1 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">AI Engine</h1>
+                            <p className="text-slate-500 mb-8">Your agent is powered by Google's advanced Gemini High-Performance Models.</p>
 
-                            <div className="w-full text-left space-y-8">
-                                <div>
-                                    <h3 className="text-sm font-semibold text-slate-900 mb-3 border-b pb-1">User Chat Models</h3>
-                                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                        <ModelCard id="chatgpt" name="ChatGPT" description="OpenAI's conversational AI assistant" icon={Bot} />
-                                        <ModelCard id="gemini" name="Gemini" description="Google's advanced AI model" icon={Sparkles} />
-                                        <ModelCard id="grok" name="Grok" description="X's AI assistant with real-time knowledge" icon={Zap} />
-                                        <ModelCard id="copilot" name="MS Copilot" description="Microsoft's AI-powered search assistant" icon={Bot} />
-                                        <ModelCard id="perplexity" name="Perplexity" description="AI-powered answer engine" icon={Search} />
-                                        <ModelCard id="google-ai" name="Google AI Overviews" description="Google AI-generated overviews/search" icon={Globe} />
-                                    </div>
+                            <div className="bg-blue-50 border border-blue-100 rounded-xl p-6 flex items-center gap-4 text-left max-w-md w-full mb-8">
+                                <div className="h-12 w-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center shrink-0">
+                                    <Sparkles className="w-6 h-6" />
                                 </div>
-
                                 <div>
-                                    <h3 className="text-sm font-semibold text-slate-900 mb-3 border-b pb-1">API Models</h3>
-                                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                        <ModelCard id="gpt-search" name="ChatGPT Search" description="Access web search results with ChatGPT" icon={Search} />
-                                        <ModelCard id="gpt-4.1" name="GPT 4.1" description="Well suited for problem solving" icon={Cpu} />
-                                        <ModelCard id="gpt-4o" name="GPT 4o" description="For complex, multi-step tasks" icon={Cpu} />
-                                        <ModelCard id="gpt-3.5" name="GPT-3.5 Turbo" description="Legacy GPT model for cheaper chat" icon={Bot} />
-                                        <ModelCard id="gpt-o4-mini" name="GPT o4 mini" description="Small model for fast, lightweight tasks" icon={Bot} />
-                                        <ModelCard id="gemini-flash" name="Gemini 2.0 Flash" description="Next generation features, speed" icon={Sparkles} />
-                                        <ModelCard id="gemini-pro" name="Gemini 2.5 Pro Preview" description="Enhanced thinking and reasoning" icon={Sparkles} />
-                                        <ModelCard id="grok-3" name="Grok 3" description="Flagship model with deep domain knowledge" icon={Zap} />
-                                        <ModelCard id="claude-3.5" name="Claude Sonnet 3.5" description="High level of intelligence and capability" icon={Bot} />
-                                    </div>
+                                    <h3 className="font-bold text-slate-900">Google Gemini 1.5 Flash</h3>
+                                    <p className="text-sm text-slate-600">Optimized for speed, accuracy, and SEO analysis.</p>
                                 </div>
                             </div>
 
@@ -411,7 +396,7 @@ export default function OnboardingPage() {
                                         <PricingFeature text="Unlimited monitors" />
                                         <PricingFeature text="250 prompts" />
                                         <PricingFeature text="Up to 25000 responses" />
-                                        <PricingFeature text="Every AI model" />
+                                        <PricingFeature text="Gemini Flash 1.5" />
                                         <PricingFeature text="Google AI Overviews" />
                                         <PricingFeature text="Unlimited seats" />
                                     </div>

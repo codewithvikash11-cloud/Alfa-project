@@ -7,8 +7,8 @@ export function Sidebar() {
         <aside className="fixed inset-y-0 left-0 w-64 border-r bg-background hidden md:flex flex-col z-30">
             <div className="flex h-16 items-center border-b px-6">
                 <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary">
-                    <Package2 className="h-6 w-6" />
-                    <span>SEOForge.ai</span>
+                    <img src="/logo.png" alt="SeoPilot.ai Logo" className="h-8 w-auto mix-blend-multiply" />
+                    <span>SeoPilot.ai</span>
                 </Link>
             </div>
             <div className="flex-1 overflow-y-auto py-4 px-3">

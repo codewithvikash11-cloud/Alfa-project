@@ -46,7 +46,7 @@ export default function LoginPage() {
                 </CardFooter>
             </Card>
             <div className="absolute bottom-4 text-white/50 text-xs">
-                © 2024 SEOForge.ai
+                © 2024 SeoPilot.ai
             </div>
         </div>
     );

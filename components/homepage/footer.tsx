@@ -10,8 +10,8 @@ export function Footer() {
                 <div className="grid md:grid-cols-4 gap-12 mb-12">
                     <div className="col-span-1 md:col-span-1">
                         <Link href="/" className="flex items-center gap-2 font-bold text-xl text-white mb-4">
-                            <Package2 className="h-6 w-6 text-primary" />
-                            <span>SEOForge.ai</span>
+                            <img src="/logo.png" alt="SeoPilot.ai Logo" className="h-8 w-auto" />
+                            <span>SeoPilot.ai</span>
                         </Link>
                         <p className="text-sm text-slate-400">
                             The only AI-first SEO platform designed for modern growth teams. Automate your ranking strategy.
@@ -50,7 +50,7 @@ export function Footer() {
                 </div>
 
                 <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
-                    <p>© 2024 SEOForge.ai. All rights reserved.</p>
+                    <p>© 2024 SeoPilot.ai. All rights reserved.</p>
                     <div className="flex gap-4">
                         <Link href="#" className="hover:text-white">Twitter</Link>
                         <Link href="#" className="hover:text-white">LinkedIn</Link>
